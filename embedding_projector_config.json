@@ -6,8 +6,8 @@
         10000,
         300
       ],
-      "tensorPath": "https://gitlab.com/davpinto/public-word-embeddings/-/raw/master/word_embeddings_vectors.tsv",
-      "metadataPath": "https://gitlab.com/davpinto/public-word-embeddings/-/raw/master/word_embeddings_metadata.tsv"
+      "tensorPath": "https://raw.githubusercontent.com/sympla/public-word-embedding/master/word_embeddings_vectors.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sympla/public-word-embedding/master/word_embeddings_metadata.tsv"
     }
   ]
 }
