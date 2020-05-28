@@ -29,4 +29,4 @@ w2v[, (num.cols) := lapply(.SD, round, digits = 4), .SDcols = num.cols]
 file_export_csv(w2v[, num.cols, with = FALSE], "word_embeddings_vectors.tsv", sep = "\t", col.names = FALSE)
 
 ## Save metadata
-file_export_csv(w2v[, c("word", "rank")], "word_embeddings_metadata.tsv", sep = "\t")
+file_export_csv(w2v[, "word"], "word_embeddings_metadata.tsv", sep = "\t", col.names = FALSE)
